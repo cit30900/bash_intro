@@ -50,3 +50,13 @@ Use Bash to read information from and about a file.
 * `./read_file.sh` 
 * Update the last modified date with `touch test.txt` and report the date a 2nd time
 * `./read_file.sh`
+
+## Execute Python from bash
+You can use bash to execute Python scripts!
+
+* `touch run_python.sh hello_python.py`
+* Add content to `hello_python.py`
+* Run the Python code `python hello_python.py`
+* Add content to `run_python.sh`
+* `chmod 744 run_python.sh`
+* `./run_python.sh`
